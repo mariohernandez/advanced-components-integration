@@ -2,19 +2,26 @@
 @import '../../global/utils/init';
 
 .button {
-  background-color: $color-black;
+  background-color: #1f1f1f;
   border: 0;
   cursor: pointer;
-  color: $color-white;
+  color: #fff;
   display: inline-block;
   font-weight: bold;
   padding: 10px 30px;
   text-align: center;
-  transition: background-color $transition, color $transition;
+  transition: background-image 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-radius: 4px;
+  background-image: linear-gradient(135.82deg, #393f47 29.03%, #22262b 74.42%);
+  text-decoration: none;
 
   &:hover,
   &:active {
-    background-color: darken($color-black, 15);
-    color: $color-white;
+    background-image: linear-gradient(135.82deg, #393f47 29.03%, #22262b 74.42%);
+    color: #fff;
+  }
+
+  &:focus {
+    outline: 5px auto -webkit-focus-ring-color;
   }
 }
