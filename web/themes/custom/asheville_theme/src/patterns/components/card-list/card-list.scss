@@ -1,0 +1,25 @@
+@import '../../global/utils/init';
+
+.card-list {
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .card__content {
+    flex-grow: 1;
+  }
+}
+
+.card-list__items {
+  display: flex;
+  align-items: stretch;
+  padding: 24px 0;
+  flex-wrap: wrap;
+
+  .card__ctas {
+    margin-top: auto;
+  }
+}

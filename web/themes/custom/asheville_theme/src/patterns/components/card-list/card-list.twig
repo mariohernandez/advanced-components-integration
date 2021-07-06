@@ -1,0 +1,31 @@
+{{ attach_library('asheville_theme/card-list') }}
+
+<section class="card-list">
+  {% if list_title %}
+    {%
+      include '@asheville_theme/heading/heading.twig' with {
+        "heading": list_title,
+      } only
+    %}
+  {% endif %}
+
+  {% if items %}
+    <div class="card-list__items">
+      {% for item in items %}
+        {%
+          include '@asheville_theme/card/card.twig' with {
+            "image": item.image,
+            "heading": item.heading,
+            "eyebrow": item.eyebrow,
+            "intro": item.intro,
+            "items": item.items,
+            "audience": item.audience,
+            "button": item.button,
+            "register": item.register,
+            "modifier": item.modifier,
+          } only
+        %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
