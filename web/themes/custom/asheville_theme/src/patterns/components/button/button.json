@@ -1,5 +1,7 @@
 {
-  "modifier": "",
-  "text": "Button",
-  "url": ""
+  "button": {
+    "modifier": "",
+    "text": "Button",
+    "url": ""
+  }
 }
