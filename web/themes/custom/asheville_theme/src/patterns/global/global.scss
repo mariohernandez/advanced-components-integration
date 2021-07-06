@@ -36,7 +36,6 @@
 }
 
 html {
-  @include font-stack-primary;
   font-size: 100%;
   line-height: 1.15;
   box-sizing: border-box;
@@ -45,6 +44,7 @@ html {
 
 // Sections.
 body {
+  @include font-stack-primary;
   margin: 0;
 }
 

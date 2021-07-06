@@ -1,0 +1,40 @@
+{
+  "image": "<img src='https://source.unsplash.com/hOuJYX2K5DA/420x120' alt='Man lifting weights' />",
+  "heading": {
+    "heading_level": 2,
+    "modifier": "card__title",
+    "title": "Advanced techniques for integrating components with Drupal",
+    "url": "#"
+  },
+  "eyebrow": {
+    "text": "Components",
+    "modifier": "card__category"
+  },
+  "intro": "In this hands-on training you will learn about component integration including:",
+  "items": [
+    {
+      "topic": "Building reusable components in Pattern Lab"
+    },
+    {
+      "topic": "Thinking of Drupal when building components"
+    },
+    {
+      "topic": "The right way to pull field values from Drupal fields"
+    },
+    {
+      "topic": "Integrating component with Drupal the right way"
+    }
+  ],
+  "audience": "Developers",
+  "button": {
+    "modifier": "card__togge",
+    "text": "See more",
+    "url": ""
+  },
+  "register": {
+    "modifier": "card__register",
+    "text": "Register",
+    "url": "#"
+  },
+  "modifier": "",
+}

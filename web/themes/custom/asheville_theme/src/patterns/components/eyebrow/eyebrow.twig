@@ -1,5 +1,5 @@
 {{ attach_library('asheville_theme/eyebrow') }}
 
-<div class="eyebrow{{ modifier ? ' ' ~ modifier }}">
-  {{ text }}
+<div class="eyebrow{{ eyebrow.modifier ? ' ' ~ eyebrow.modifier }}">
+  {{ eyebrow.text }}
 </div>

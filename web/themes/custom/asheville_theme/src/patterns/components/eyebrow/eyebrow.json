@@ -1,4 +1,6 @@
 {
-  "text": "Category name",
-  "modifier": ""
+  "eyebrow": {
+    "text": "Training",
+    "modifier": "card__category"
+  }
 }
