@@ -26,11 +26,6 @@
     }
   ],
   "audience": "Developers",
-  "button": {
-    "modifier": "card__togge",
-    "text": "See more",
-    "url": ""
-  },
   "register": {
     "modifier": "card__register",
     "text": "Register",

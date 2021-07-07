@@ -21,11 +21,13 @@
       {% endif %}
 
       {% if heading %}
+        {{ title_prefix }}
         {%
           include '@asheville_theme/heading/heading.twig' with {
             "heading": heading,
           } only
         %}
+        {{ titile_suffix }}
       {% endif %}
 
       {% if intro %}
@@ -53,16 +55,8 @@
         </div>
       {% endif %}
 
-      {% if button or register %}
+      {% if register %}
         <div class="card__ctas">
-          {% if button %}
-            {%
-              include '@asheville_theme/button/button.twig' with {
-                "button": button,
-              } only
-            %}
-          {% endif %}
-
           {% if register %}
             {%
               include '@asheville_theme/button/button.twig' with {

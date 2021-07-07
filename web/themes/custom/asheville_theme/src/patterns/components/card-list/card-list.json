@@ -34,11 +34,6 @@
         }
       ],
       "audience": "Developers",
-      "button": {
-        "modifier": "card__togge",
-        "text": "See more",
-        "url": ""
-      },
       "register": {
         "modifier": "card__register",
         "text": "Register",
@@ -71,11 +66,6 @@
         }
       ],
       "audience": "Non Developers",
-      "button": {
-        "modifier": "card__togge",
-        "text": "See more",
-        "url": ""
-      },
       "register": {
         "modifier": "card__register",
         "text": "Register",
@@ -105,11 +95,6 @@
         }
       ],
       "audience": "Everyone",
-      "button": {
-        "modifier": "card__togge",
-        "text": "See more",
-        "url": ""
-      },
       "register": {
         "modifier": "card__register",
         "text": "Register",
